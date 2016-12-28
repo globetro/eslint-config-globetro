@@ -103,16 +103,5 @@ module.exports = {
     'react/sort-comp': 2,
     'react/jsx-wrap-multilines': 2
   },
-  'globals': {
-    'ENV': true,
-    'CONFIG': true,
-    'VERSION': true,
-    'require': true,
-    'process': true,
-    '_': true,
-    'React': true,
-    'cssModule': true,
-    '__': true,
-    'jlet': true
-  }
+  'globals': {}
 }
