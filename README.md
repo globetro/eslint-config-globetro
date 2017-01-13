@@ -6,9 +6,19 @@ The config covers rules for ES2015 and React.
 
 - `npm i --save eslint-config-globetro`
 - create a `.eslintrc` on the root of your project with the following content:
-```
+
+### For node app
+```json
 {
   "extends": "eslint-config-globetro",
+  "rules": {}
+}
+```
+
+### For React
+```json
+{
+  "extends": "eslint-config-globetro/react",
   "rules": {}
 }
 ```

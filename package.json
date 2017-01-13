@@ -4,9 +4,12 @@
   "description": "My opinionated eslint config for React",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": "^6.0.0",
-    "eslint": "^2.0.0 || ^3.0.0",
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.0.0",
     "eslint-plugin-react": "^6.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-private-props": ">=0.3.0"
   },
   "devDependencies": {
     "npm-release": "^1.0.0"
@@ -20,8 +23,5 @@
   },
   "author": "warreno@gmail.com",
   "license": "ISC",
-  "homepage": "https://github.com/globetro/eslint-config-globetro#readme",
-  "dependencies": {
-    "eslint-plugin-private-props": ">=0.3.0"
-  }
+  "homepage": "https://github.com/globetro/eslint-config-globetro#readme"
 }
