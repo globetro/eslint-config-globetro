@@ -1,0 +1,50 @@
+const baseRules = require('./base-rules');
+
+module.exports = {
+  'parser': 'babel-eslint',
+
+  'plugins': [
+    'react',
+    'private-props'
+  ],
+
+  'parserOptions': {
+    'sourceType': 'module',
+    'ecmaFeatures': {
+      'jsx': true
+    }
+  },
+
+  'env': {
+    'jasmine': true,
+    'node': true,
+    'browser': true,
+    'builtin': true,
+    'es6': true
+  },
+
+  'rules': Object.assign({}, baseRules, {
+    'jsx-quotes': [2, 'prefer-single'],
+    'react/display-name': 2,
+    'react/jsx-closing-bracket-location': [2, {selfClosing: 'tag-aligned', nonEmpty: 'after-props'}],
+    'react/jsx-curly-spacing': [2, 'never'],
+    'react/jsx-equals-spacing': [2, 'never'],
+    'react/jsx-first-prop-new-line': [2, 'multiline'],
+    'react/jsx-handler-names': 2,
+    'react/jsx-indent-props': [2, 2],
+    'react/jsx-key': 2,
+    'react/jsx-max-props-per-line': [2, {'maximum': 3}],
+    'react/jsx-no-duplicate-props': 2,
+    'react/jsx-no-undef': 2,
+    'react/jsx-pascal-case': 2,
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2,
+    'react/no-deprecated': 2,
+    'react/no-unknown-property': 2,
+    'react/self-closing-comp': 2,
+    'react/sort-comp': 2,
+    'react/jsx-wrap-multilines': 2
+  }),
+
+  'globals': {}
+};
