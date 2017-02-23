@@ -4,7 +4,7 @@ My opinionated eslint config
 ## Usage
 The config covers rules for ES2015 and React.
 
-- `npm i --save eslint-config-globetro`
+- `npm i --save-dev eslint-config-globetro`
 - create a `.eslintrc` on the root of your project with the following content:
 
 ### For node app
