@@ -42,9 +42,43 @@ module.exports = {
     'react/no-deprecated': 2,
     'react/no-unknown-property': 2,
     'react/self-closing-comp': 2,
-    'react/sort-comp': 2,
+    'react/sort-comp': [2, {
+      order: [
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        'everything-else',
+        '/^handle[A-Z].+$/',
+        'render'
+      ],
+      groups: {
+        lifecycle: [
+          'displayName',
+          'propTypes',
+          'contextTypes',
+          'childContextTypes',
+          'mixins',
+          'statics',
+          'defaultProps',
+          'constructor',
+          'getDefaultProps',
+          'getInitialState',
+          'state',
+          'getChildContext',
+          'componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount'
+        ]
+      }
+    }],
     'react/jsx-wrap-multilines': 2
   }),
 
-  'globals': {}
+  'globals': {
+    '$Keys': true // Flow
+  }
 };

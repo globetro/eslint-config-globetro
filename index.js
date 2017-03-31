@@ -20,5 +20,9 @@ module.exports = {
 
   'rules': Object.assign({}, baseRules),
 
-  'globals': {}
+  'globals': {
+    'expect': true,
+    'sinon': true,
+    'sandbox': true
+  }
 };
