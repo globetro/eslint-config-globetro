@@ -49,6 +49,7 @@ module.exports = {
         'lifecycle',
         'everything-else',
         '/^handle[A-Z].+$/',
+        '/^render[A-Z].+$/',
         'render'
       ],
       groups: {
