@@ -76,7 +76,11 @@ module.exports = {
         ]
       }
     }],
-    'react/jsx-wrap-multilines': 2
+    'react/jsx-wrap-multilines': 2,
+    'react/default-props-match-prop-types': [2, {allowRequiredDefaults: false}],
+    'react/no-unused-prop-types': 2,
+    'react/prop-types': 2,
+    'react/react-in-jsx-scope': 2
   }),
 
   'globals': {
