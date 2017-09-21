@@ -54,12 +54,12 @@ module.exports = {
     after: true
   }],
   'keyword-spacing': 2,
-  'space-before-blocks': [2, {
+  'space-before-blocks': [2, 'always'],
+  'space-before-function-paren': [2, {
     'anonymous': 'never',
     'named': 'never',
     'asyncArrow': 'always'
   }],
-  'space-before-function-paren': [2, 'never'],
   'space-in-parens': [2, 'never'],
   'object-curly-spacing': [2, 'never']
 };
