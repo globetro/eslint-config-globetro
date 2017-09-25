@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-globetro",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "My opinionated eslint config for React",
   "main": "index.js",
   "peerDependencies": {
