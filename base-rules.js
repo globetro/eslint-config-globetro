@@ -1,7 +1,10 @@
 module.exports = {
   'private-props/no-unused-or-undeclared': 2,
 
-  'indent': [2, 2, {'SwitchCase': 1}],
+  'indent': [2, 2, {
+    'SwitchCase': 1,
+    'ignoredNodes': ['ConditionalExpression']
+  }],
   'block-scoped-var': 0,
   'camelcase': 0,
   'curly': [
