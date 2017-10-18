@@ -3,7 +3,7 @@ module.exports = {
 
   'indent': [2, 2, {
     'SwitchCase': 1,
-    'ignoredNodes': ['ConditionalExpression']
+    'ignoredNodes': ['ConditionalExpression', 'CallExpression']
   }],
   'block-scoped-var': 0,
   'camelcase': 0,
