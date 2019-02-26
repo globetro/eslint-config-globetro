@@ -64,5 +64,7 @@ module.exports = {
     'asyncArrow': 'always'
   }],
   'space-in-parens': [2, 'never'],
-  'object-curly-spacing': [2, 'never']
+  'object-curly-spacing': [2, 'never'],
+  'prefer-const': 2,
+  'camelcase': 2
 };
